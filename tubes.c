@@ -1,8 +1,18 @@
+/*EL2208 Praktikum Pemecahan Masalah dengan C 2022/2023
+*Modul              : 9 - Tugas Besar
+*Kelompok           : A4
+*Hari dan Tanggal   : 
+*Asisten (NIM)      : Eunike Kristianti (18320019)
+*Nama File          : tubes.c
+*Deskripsi          : Penyelesaian markas militer negara api dengan convex hull algorithm
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-// #define M_PI 3.14
+#define M_PI 3.14
 struct definition{
   double lintang;
   double bujur;
